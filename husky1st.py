@@ -13,7 +13,7 @@ class SimplePlayer(Bot):
         self.hand_history = []
         self.hand = []
         self.position = 0
-        self.bluff_factor = 0.6  # fucking baseling for retarded ones 
+        self.bluff_factor = 0.65  # fucking baseling for retarded ones 
         self.aggression_factor = 1.4  # fucking aggression 
         # weighing according to fuck knows pairs
         self.preflop_equity = {
