@@ -5,6 +5,8 @@ from type.round_state import RoundStateClient
 import eval7
 import random
 from collections import defaultdict
+import os
+
 
 class SimplePlayer(Bot):
     def __init__(self):
